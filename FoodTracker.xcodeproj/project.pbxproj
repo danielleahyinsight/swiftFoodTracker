@@ -13,6 +13,7 @@
 		075E660D22CCBBE500CEDA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075E660C22CCBBE500CEDA97 /* Assets.xcassets */; };
 		075E661022CCBBE500CEDA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075E660E22CCBBE500CEDA97 /* LaunchScreen.storyboard */; };
 		075E661B22CCBBE500CEDA97 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E661A22CCBBE500CEDA97 /* FoodTrackerTests.swift */; };
+		075E662822CE0C1500CEDA97 /* falcon9boosterlanding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 075E662722CE0C1500CEDA97 /* falcon9boosterlanding.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		075E661622CCBBE500CEDA97 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075E661A22CCBBE500CEDA97 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		075E661C22CCBBE500CEDA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075E662722CE0C1500CEDA97 /* falcon9boosterlanding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = falcon9boosterlanding.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				075E660C22CCBBE500CEDA97 /* Assets.xcassets */,
 				075E660E22CCBBE500CEDA97 /* LaunchScreen.storyboard */,
 				075E661122CCBBE500CEDA97 /* Info.plist */,
+				075E662622CE0C1500CEDA97 /* Images */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -94,6 +97,14 @@
 				075E661C22CCBBE500CEDA97 /* Info.plist */,
 			);
 			path = FoodTrackerTests;
+			sourceTree = "<group>";
+		};
+		075E662622CE0C1500CEDA97 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				075E662722CE0C1500CEDA97 /* falcon9boosterlanding.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				075E661022CCBBE500CEDA97 /* LaunchScreen.storyboard in Resources */,
 				075E660D22CCBBE500CEDA97 /* Assets.xcassets in Resources */,
 				075E660B22CCBBE400CEDA97 /* Main.storyboard in Resources */,
+				075E662822CE0C1500CEDA97 /* falcon9boosterlanding.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
