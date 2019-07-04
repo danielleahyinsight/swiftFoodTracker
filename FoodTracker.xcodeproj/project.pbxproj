@@ -14,6 +14,12 @@
 		075E661022CCBBE500CEDA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075E660E22CCBBE500CEDA97 /* LaunchScreen.storyboard */; };
 		075E661B22CCBBE500CEDA97 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E661A22CCBBE500CEDA97 /* FoodTrackerTests.swift */; };
 		075E662822CE0C1500CEDA97 /* falcon9boosterlanding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 075E662722CE0C1500CEDA97 /* falcon9boosterlanding.jpg */; };
+		075E662A22CE3ED500CEDA97 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E662922CE3ED500CEDA97 /* RatingControl.swift */; };
+		075E663022CE525500CEDA97 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662B22CE525500CEDA97 /* defaultPhoto.png */; };
+		075E663122CE525500CEDA97 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662C22CE525500CEDA97 /* filledStar.png */; };
+		075E663222CE525500CEDA97 /* meal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662D22CE525500CEDA97 /* meal1.png */; };
+		075E663322CE525500CEDA97 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662E22CE525500CEDA97 /* emptyStar.png */; };
+		075E663422CE525500CEDA97 /* highlightedStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662F22CE525500CEDA97 /* highlightedStar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		075E661A22CCBBE500CEDA97 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		075E661C22CCBBE500CEDA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075E662722CE0C1500CEDA97 /* falcon9boosterlanding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = falcon9boosterlanding.jpg; sourceTree = "<group>"; };
+		075E662922CE3ED500CEDA97 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		075E662B22CE525500CEDA97 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
+		075E662C22CE525500CEDA97 /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
+		075E662D22CE525500CEDA97 /* meal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal1.png; sourceTree = "<group>"; };
+		075E662E22CE525500CEDA97 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
+		075E662F22CE525500CEDA97 /* highlightedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlightedStar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 				075E660E22CCBBE500CEDA97 /* LaunchScreen.storyboard */,
 				075E661122CCBBE500CEDA97 /* Info.plist */,
 				075E662622CE0C1500CEDA97 /* Images */,
+				075E662922CE3ED500CEDA97 /* RatingControl.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -102,6 +115,11 @@
 		075E662622CE0C1500CEDA97 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				075E662B22CE525500CEDA97 /* defaultPhoto.png */,
+				075E662E22CE525500CEDA97 /* emptyStar.png */,
+				075E662C22CE525500CEDA97 /* filledStar.png */,
+				075E662F22CE525500CEDA97 /* highlightedStar.png */,
+				075E662D22CE525500CEDA97 /* meal1.png */,
 				075E662722CE0C1500CEDA97 /* falcon9boosterlanding.jpg */,
 			);
 			path = Images;
@@ -188,8 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075E663022CE525500CEDA97 /* defaultPhoto.png in Resources */,
+				075E663322CE525500CEDA97 /* emptyStar.png in Resources */,
 				075E661022CCBBE500CEDA97 /* LaunchScreen.storyboard in Resources */,
+				075E663222CE525500CEDA97 /* meal1.png in Resources */,
+				075E663422CE525500CEDA97 /* highlightedStar.png in Resources */,
 				075E660D22CCBBE500CEDA97 /* Assets.xcassets in Resources */,
+				075E663122CE525500CEDA97 /* filledStar.png in Resources */,
 				075E660B22CCBBE400CEDA97 /* Main.storyboard in Resources */,
 				075E662822CE0C1500CEDA97 /* falcon9boosterlanding.jpg in Resources */,
 			);
@@ -210,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				075E660822CCBBE400CEDA97 /* ViewController.swift in Sources */,
+				075E662A22CE3ED500CEDA97 /* RatingControl.swift in Sources */,
 				075E660622CCBBE400CEDA97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
