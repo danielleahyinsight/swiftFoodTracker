@@ -20,6 +20,7 @@
 		075E663222CE525500CEDA97 /* meal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662D22CE525500CEDA97 /* meal1.png */; };
 		075E663322CE525500CEDA97 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662E22CE525500CEDA97 /* emptyStar.png */; };
 		075E663422CE525500CEDA97 /* highlightedStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 075E662F22CE525500CEDA97 /* highlightedStar.png */; };
+		075E663622CF690800CEDA97 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E663522CF690800CEDA97 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		075E662D22CE525500CEDA97 /* meal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal1.png; sourceTree = "<group>"; };
 		075E662E22CE525500CEDA97 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
 		075E662F22CE525500CEDA97 /* highlightedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlightedStar.png; sourceTree = "<group>"; };
+		075E663522CF690800CEDA97 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				075E660522CCBBE400CEDA97 /* AppDelegate.swift */,
 				075E660722CCBBE400CEDA97 /* ViewController.swift */,
+				075E663522CF690800CEDA97 /* Meal.swift */,
 				075E660922CCBBE400CEDA97 /* Main.storyboard */,
 				075E660C22CCBBE500CEDA97 /* Assets.xcassets */,
 				075E660E22CCBBE500CEDA97 /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075E663622CF690800CEDA97 /* Meal.swift in Sources */,
 				075E660822CCBBE400CEDA97 /* ViewController.swift in Sources */,
 				075E662A22CE3ED500CEDA97 /* RatingControl.swift in Sources */,
 				075E660622CCBBE400CEDA97 /* AppDelegate.swift in Sources */,

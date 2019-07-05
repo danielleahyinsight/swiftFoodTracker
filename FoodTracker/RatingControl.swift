@@ -83,10 +83,10 @@ import UIKit
             button.widthAnchor.constraint(equalToConstant: starSize.width).isActive = true
             
             button.addTarget(self, action: #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
-            
-            
+
             // Add the button to the stack
             addArrangedSubview(button)
+            
             // Add the new button to the rating button array
             ratingsButtons.append(button)
         }
