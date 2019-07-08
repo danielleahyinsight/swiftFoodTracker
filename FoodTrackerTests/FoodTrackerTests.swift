@@ -37,7 +37,6 @@ class FoodTrackerTests: XCTestCase {
         let emptyStringMeal = Meal.init(name: "", photo: nil, rating: 0)
         XCTAssertNil(emptyStringMeal)
         
-        
     }
 
 }
