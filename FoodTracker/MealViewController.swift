@@ -28,6 +28,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        
         // Handle the text fields  user input through delegate callbacks
         nameTextField.delegate = self
         
